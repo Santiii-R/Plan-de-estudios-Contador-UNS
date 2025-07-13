@@ -74,6 +74,8 @@ function mostrarMaterias() {
 
   const porcentaje = ((hechas / total) * 100).toFixed(1);
   contador.innerText = `Aprobadas: ${hechas} / ${total} (${porcentaje}%)`;
+  const barra = document.getElementById('relleno-progreso');
+if (barra) barra.style.width = `${porcentaje}%`;
 }
 
 function limpiar() {
