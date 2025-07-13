@@ -41,9 +41,7 @@
     "nombre": "Contabilidad básica",
     "anio": "1°",
     "cuatrimestre": "2°",
-    "correlativas": [
-      "Introducción a la administración"
-    ]
+    "correlativas": []
   },
   {
     "codigo": "1673",
