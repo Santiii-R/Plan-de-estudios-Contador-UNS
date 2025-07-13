@@ -234,9 +234,9 @@
     "correlativas": [
       "Contabilidad II",
       "Contabilidad III",
-      "análisis financiero",
-      "Finanzas publicas",
-      "estadística"
+      "Análisis financiero",
+      "Finanzas públicas",
+      "Estadística"
     ]
   },
   {
@@ -246,8 +246,8 @@
     "cuatrimestre": "2°",
     "correlativas": [
       "Contabilidad II",
-      "Finanzas publicas",
-      "fundamentos del derecho publico"
+      "Finanzas públicas",
+      "Fundamentos del derecho público"
     ]
   },
   {
@@ -258,8 +258,8 @@
     "correlativas": [
       "Contabilidad II",
       "Contabilidad III",
-      "Finanzas publicas",
-      "Fundamentos del derecho publico",
+      "Finanzas públicas",
+      "Fundamentos del derecho público",
       "Derecho empresario"
     ]
   },
@@ -281,8 +281,8 @@
     "cuatrimestre": "1°",
     "correlativas": [
       "Actuación profesional societaria",
-      "actuación profesional laboral y previsional",
-      "teoría y técnica tributaria I"
+      "Actuación profesional laboral y previsional",
+      "Teoría y técnica tributaria I"
     ]
   },
   {
@@ -291,7 +291,7 @@
     "anio": "5",
     "cuatrimestre": "1°",
     "correlativas": [
-      "Teoría y técnica tributaria"
+      "Teoría y técnica tributaria I"
     ]
   },
   {
@@ -310,7 +310,7 @@
     "anio": "5",
     "cuatrimestre": "2°",
     "correlativas": [
-      "Prueba de suficiencia de ingles"
+      "Prueba de Suficiencia de ingles"
     ]
   }
 ]
