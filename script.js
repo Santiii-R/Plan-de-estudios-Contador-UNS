@@ -85,3 +85,66 @@ function limpiar() {
 }
 
 cargarMaterias();
+function generarGrafo() {
+  const grafoDiv = document.getElementById('grafo');
+  grafoDiv.style.display = 'block';
+
+  const elementos = [];
+
+  materias.forEach(m => {
+    elementos.push({
+      data: { id: m.nombre, label: m.nombre }
+    });
+
+    m.correlativas.forEach(cor => {
+      elementos.push({
+        data: { source: cor, target: m.nombre }
+      });
+    });
+  });
+
+  cytoscape({
+    container: grafoDiv,
+    elements: elementos,
+    style: [
+      {
+        selector: 'node',
+        style: {
+          'label': 'data(label)',
+          'text-valign': 'center',
+          'color': '#2d3436',
+          'background-color': '#81ecec',
+          'font-size': 10,
+          'text-wrap': 'wrap'
+        }
+      },
+      {
+        selector: 'edge',
+        style: {
+          'width': 2,
+          'line-color': '#b2bec3',
+          'target-arrow-color': '#b2bec3',
+          'target-arrow-shape': 'triangle'
+        }
+      }
+    ],
+    layout: {
+      name: 'cose',
+      animate: true
+    }
+  });
+}
+function toggleVista() {
+  const contenedor = document.getElementById('contenedor');
+  const grafoDiv = document.getElementById('grafo');
+
+  if (grafoDiv.style.display === 'none') {
+    contenedor.style.display = 'none';
+    document.getElementById('estadisticas').style.display = 'none';
+    generarGrafo();
+  } else {
+    grafoDiv.style.display = 'none';
+    contenedor.style.display = 'flex';
+    document.getElementById('estadisticas').style.display = 'block';
+  }
+}
