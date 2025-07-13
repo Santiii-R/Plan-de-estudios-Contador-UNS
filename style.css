@@ -91,3 +91,27 @@ button:hover {
   background-color: #ffdde1;
   color: #2d3436;
 }
+.barra-progreso {
+  width: 80%;
+  height: 20px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  margin: 10px auto;
+  overflow: hidden;
+}
+
+.relleno {
+  height: 100%;
+  background-color: #81ecec;
+  width: 0%;
+  transition: width 0.4s ease;
+}
+
+/* Animaciones suaves al interactuar */
+.materia {
+  transition: background-color 0.4s, color 0.3s, transform 0.3s;
+}
+
+.materia:hover {
+  transform: scale(1.03);
+}
