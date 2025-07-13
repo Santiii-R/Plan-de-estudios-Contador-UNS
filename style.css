@@ -115,3 +115,7 @@ button:hover {
 .materia:hover {
   transform: scale(1.03);
 }
+#grafo {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
