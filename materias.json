@@ -313,5 +313,12 @@
     "correlativas": [
       "Prueba de Suficiencia de ingles"
     ]
+  },
+  {
+    "codigo": -,
+    "nombre": "Optativa",
+    "anio": "5",
+    "cuatrimestre": "2°",
+    "correlativas": []
   }
 ]
